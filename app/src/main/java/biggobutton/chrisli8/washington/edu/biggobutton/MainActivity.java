@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         final Button goButton = (Button) findViewById(R.id.button_go);
-        goButton.setBackgroundColor(Color.GREEN);
+
         goButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
